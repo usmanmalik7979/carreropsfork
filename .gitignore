@@ -25,6 +25,8 @@ reports/*.md
 # Kept alongside it rather than replacing it, so update-system.mjs does not
 # re-append the original pattern as "missing".
 reports/**/*.md
+# Keep every report artifact (PDF, JSON, etc.) out of Git, not just Markdown.
+/reports/*
 !reports/.gitkeep
 /output
 output/*
